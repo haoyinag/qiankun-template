@@ -1,3 +1,15 @@
-# qiankun-template
+# umi project
 
-qiankun微前端实践模板
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
