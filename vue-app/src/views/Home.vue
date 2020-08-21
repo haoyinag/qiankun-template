@@ -1,5 +1,8 @@
 <template>
-  <div class="home">我是子应用【vue-app】</div>
+  <a-button type="primary">
+    我是子应用【vue-app】
+    <a-icon type="form" />
+  </a-button>
 </template>
 
 <script>
