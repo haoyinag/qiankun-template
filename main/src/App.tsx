@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { Layout, Menu } from "antd";
 import {
@@ -11,6 +11,8 @@ import {
   VideoCameraOutlined,
   UploadOutlined,
 } from "@ant-design/icons";
+
+import { Home } from "./pages/Home";
 
 import "./App.less";
 
@@ -50,7 +52,6 @@ function App() {
             )}
           </Header>
           <Content
-            id="microContainer"
             className="site-layout-background"
             style={{
               margin: "24px 16px",
@@ -58,7 +59,8 @@ function App() {
               minHeight: 280,
             }}
           >
-            Content
+            <Route exact path="/" component={Home} />
+            <div id="microContainer"></div>
           </Content>
         </Layout>
       </Layout>
