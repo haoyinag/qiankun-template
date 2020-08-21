@@ -14,6 +14,7 @@
     "antd": "^4.5.4",
     "antd-dayjs-webpack-plugin": "^1.0.1",
     "craco-less": "^1.17.0",
+    "qiankun": "^2.0.21",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
