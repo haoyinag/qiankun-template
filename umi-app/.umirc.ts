@@ -8,6 +8,9 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  qiankun: {
+    slave: {},
+  },
   // configureWebpack: {
   //   output: {
   //     library: `${packageName}-[name]`,
@@ -25,4 +28,5 @@ export default defineConfig({
   //   return config;
   // },
   routes: [{ path: '/', component: '@/pages/index' }],
+  // plugins: [['@umijs/plugin-qiankun/slave', {}]],
 });
