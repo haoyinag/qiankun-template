@@ -59,7 +59,10 @@ function App() {
               minHeight: 280,
             }}
           >
+            {/* 渲染主应用路由 */}
             <Route exact path="/" component={Home} />
+
+            {/* 渲染子应用路由 */}
             <div id="microContainer"></div>
           </Content>
         </Layout>
